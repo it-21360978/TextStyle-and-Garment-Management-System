@@ -1,5 +1,5 @@
 # TextStyle-and-Garment-Management-System
- This is a web application for managing garment items and tracking orders. It was built using HTML, CSS, JavaScript, PHP, and MySQL.
+ This is a web application for managing garment items and tracking orders. It was built using HTML, CSS, JavaScript, PHP, and MySQL.The application is customizable to suit different garment management needs. 
  
  ## Features
  <ul>
