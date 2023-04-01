@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Vivacious Designs And Textile </title>
+    <link rel="icon" type="image/jpg" href="../images/comp_logo.jpg">
+    <link rel ="stylesheet" type="text/css" href = "../css/header.css">
+	<link rel ="stylesheet" type="text/css" href = "../css/technician dash.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+</head>
+<body>
+    <center><a href="homepage.html"><img src="../images/head_logo2.jpg" id="header"></a></center>
+ <div class="cola">   
+<div id="nav">
+    <a style="color:red; margin-right:0;" href="../logout.php">Logout</a>
+	</div>
+    <br>
+<body>
+
+<div class="dash" style="text-align:center">
+  <h1>Technician   Dashboard</h1>
+
+</div>
+</div>
+
+<!-- Two columns -->
+<div class="row">
+  <div class="column" onclick="openTab('b1');" style="background: gray";>
+    <div class="adj"><b>Technical Issues</b></div>
+	<p class="tab">click here to display the issues</p>
+  </div>
+  <div class="column" onclick="openTab('b2');" style="background:#92938F;">
+    <div class="adj"><b>Order issues</b></div>
+	<p class ="tab">click here to display the issues</p>
+  </div><br>
+
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:green">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Technical Issues</h2>
+  <ul class="deca">
+     <li>Having a Poor On-site Search Engine ---3</li><br>
+     <li>No data-based product suggestions---1</li><br>
+	 <li>Payment failures (and uncertainty)---0</li><br>
+	 <li>Search Autocomplete is not typo tolerant---0</li><br>
+	 <li>No data-based product suggestions---0</li>
+	 </ul>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:blue">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Order issues</h2>
+  <ul class="deca">
+     <li>No category suggestions, photos or prices during sales events ---3</li><br>
+     <li>Autocomplete is too slow---1</li><br>
+	 <li>Not handling zero results pages as opportunities---0</li><br>
+	 <li>Bad User Experience---0</li><br>
+	 <li>The Lack of Personalization---0</li>
+	 </ul>
+</div>
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+</body>
+<footer>
+ <div id="footer" style="font-family: system-ui;">
+        <ul class="footer-list" style="float:left">
+            <li style="font-size: 20px;">
+                The Company
+            </li>
+            <li>
+                <a href="About Us.html" > About Us</a>
+            </li>
+            <li>
+                <a href="Contact Us.html">Contact Us</a>
+            </li>
+            <li>
+                <a href="Legal.html">Legal</a>
+            </li>
+            <li>
+                <a href="Privacy.html">Privacy and Cookies</a>
+            </li>
+        </ul>
+        <ul class="footer-list" id="help" style="float: left;" >
+            <li style="font-size: 20px;" >
+                Need Help ?
+            </li>
+            <li>
+                <a href="FAQ.html"> FAQ</a>
+            </li>
+            <li>
+                <a href="News.html">News</a>
+            </li>
+            <li>
+                <a href="profile.php">Profile</a>
+            </li>
+        </ul>
+        <ul class="footer-list" id="" style="float:left;">
+        <li style="font-size: 20px;">
+            Branches
+        </li>
+        <li>
+              <a href="https://goo.gl/maps/r2CcUiyGTNyMXmQZ6" target="_blank">New York</a> 
+        </li>
+        <li>
+                <a href="https://goo.gl/maps/CjJc3i758Z2n1q5n8" target="_blank">London</a>
+        </li>
+        <li>
+                <a href="https://goo.gl/maps/bBfAJDcQCc1JR26Y7" target="_blank">Melbourn</a>
+        </li>
+        <li>
+                <a href="https://goo.gl/maps/DqiXAtwWkLjj1G6U8" target="_blank">Tokyo</a>
+        </li>
+        </ul>
+        <br><br><br><br><br><br>
+        <ul class="social">
+            <li class="social">
+                 <a href="https://www.facebook.com/Vivacious-Designs-And-Textile-100517169330619" id="link" target="_blank"> <img src="../images/fb_icon.png" class="fb" >     Facebook   </a> 
+            </li>
+            <li class="social">
+                 <a href="https://www.instagram.com/vivaciousdesignsandtextile/" id="link1" onMouseOver="this.style.color='#C13584'" onmouseout="this.style.color='#FFFFFF'" target="_blank"><img src="../images/ig_Logo.png" class="ig" >      Instagram </a> 
+            </li>
+            <li class="social"> 
+                 <a href="https://linkedin.com/in/vivacious-designs-744853239/" id="link2" onMouseOver="this.style.color='#0072b1'" onmouseout="this.style.color='#FFFFFF'" target="_blank"><img src="../images/in_logo.png" class="in" >   Linkedin     </a> 
+            </li>
+            <li class="social"> 
+                <a href="https://twitter.com/VivaciousDesig" id="link3" onMouseOver="this.style.color='#00acee'" onmouseout="this.style.color='#FFFFFF'" target="_blank"><img src="../images/twitter.png" class="twitter" >    Twitter  </a>
+            </li>
+            <li style="text-align: center;">
+                <p id="copyright" >© 2022 Vivacious Designs And Textile - All rights reserved</p>
+            </li>
+        </ul>
+    </div>
+
+</footer>
+</html>
+

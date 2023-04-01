@@ -1,0 +1,103 @@
+.top{
+    margin-top: 10px;
+    width: 100%;
+    height:350px ;
+    background-image: url(../images/dis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img1{
+    width: 380px;
+    height: 380px;
+}
+.mid{
+    margin-top: -20px;
+    width: 100%;
+    height:350px ;
+    background-image: url(../images/dis2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.cont1{
+    position: relative;
+    color: white;
+    top:30%;
+    font-family: Century Gothic;
+}
+
+.des{
+    position: absolute;
+    top:45%;
+    left: 27%;
+    font-size: 25px;
+    color: #143d59;
+    font-family: Century Gothic;
+}
+.btn1{
+    position: absolute;
+    top:150px;
+    font-size: 18px;
+    margin-bottom: 40px; 
+    margin-left: 30px;
+    color: white;
+    border-color: white;
+    background-color: black;
+    outline:none;
+    border-style:2px solid ;
+    border-radius: 15px;
+    width: 200px;
+    height:35px;
+    cursor: pointer;
+    font-family: Cambria;
+}
+.bottom{
+    margin-top: -20px;
+    width: 100%;
+    height:350px ;
+    background-image: url(../images/dis3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Century Gothic;
+    
+}
+.cont2{
+    position: relative;
+    color: #FF7D00;
+    top:30%;
+    font-family: Century Gothic;
+}
+.btn2{
+    position: absolute;
+    top:150px;
+    font-size: 18px;
+    margin-bottom: 40px; 
+    margin-left: 30px;
+    color: #FF7D00;
+    border-color: #FF7D00;
+    background-color: #D3F1F4;
+    outline:none;
+    border-style:2px solid ;
+    border-radius: 15px;
+    width: 200px;
+    height:35px;
+    cursor: pointer;
+    font-family: Cambria;
+}
+.soon{
+    margin-top: -40px;
+    width: 100%;
+    height:350px ;
+    background-image: url(../images/dis4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.sooon{
+    position: relative;
+    color: #D91021;
+    font-size: 40px;
+    top:50%;
+    text-align: center;
+    font-family: Century Gothic;
+}

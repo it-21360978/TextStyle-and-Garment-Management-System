@@ -1,0 +1,621 @@
+#header{
+    width:640px ;
+    height:124px;
+    z-index: 20;
+}
+/*navigation bar*/
+ul.nav{
+	list-style-type: none;
+    font-family: "Trebuchet MS";
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#143d59;
+    position: sticky;
+    z-index: 10;
+}
+li.nav{
+	float: left;
+}
+
+.nav>li>a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav>li>a:hover{
+    background-color: #0b1d39;
+border-bottom: 3px solid #FF7D00;
+}
+
+/*footer part*/
+div#footer{
+    background-color:#143d59 ;
+    position: relative;
+    top: 1600px;
+    left: -10px;
+    color:#FFFFFF;
+    position: relative;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    z-index: 10;
+}
+.in{
+      
+    width:40px;
+    height:25px;
+}
+
+.fb{
+       
+    width:25px;
+    height:25px;
+}
+
+.ig{
+       
+    width:50px;
+    height:25px;
+}
+
+.twitter{
+      
+    width:25px;
+    height:25px;
+}
+
+
+
+ul.social{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: transparent;
+    overflow: hidden;
+    
+     
+}
+li.social{
+    float: right;
+}
+
+.social>li>a{
+    color:white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.social>li>a:hover{
+    color:#4267B2;
+}
+
+.footer-list{
+    list-style-type: none;
+    line-height: 29px;
+}
+
+.footer-list>li>a{
+    color: rgba(255, 255, 255, 0.688);;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.footer-list>li>a:hover{
+    color:#ffffff;
+}
+
+#help{
+  float:left;
+}
+
+/*slide show*/
+.background_img{
+    position: absolute;
+    top: -150px;
+    left: -170px;
+    width: 700px;
+}
+
+.background_slideshow {
+    position: relative; 
+    left: 320px; 
+    top: 375px;
+    z-index: 10;
+  }
+
+.slide_img{
+    height: 650px;
+    width: 1200px;
+}
+.arrive{
+    position: relative;
+    color: white;
+    top: 700px;
+    z-index: 10;
+}
+
+/*background stripes*/
+.color1{
+    background-color: #6dd4e5;
+    height: 1900px;
+    width: 635px;
+    position: absolute;
+    top: 330px;
+    left: -5px;
+}
+
+.color2{
+    background-color: #00aae1;
+    height: 1900px;
+    width: 635px;
+    position: absolute;
+    top: 330px;
+    left: 630px;
+}
+.color3{
+    background-color: #074c90;
+    height: 1900px;
+    width: 430px;
+    position: absolute;
+    top: 330px;
+    left: 1260px;
+}
+
+/*meterial part*/
+div.material_details{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.material_1{
+    background-color: #ffffff;
+    height: 480px;
+    width: 300px;
+    border: 5px solid #FF7D00;
+    position: absolute; 
+    top: 1100px; 
+    left: 20px;
+    z-index: 10;
+    
+}
+
+#material_1_img{
+    position: absolute; 
+    top: 30px; 
+    left: 30px;
+    transition: transform 0.5s;
+}
+
+#material_1_img:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1); 
+  }
+
+#material_1_heading{
+    text-align: center;
+    position: relative; 
+    top: 220px;
+}
+
+#para_1{
+    text-align: center; 
+    position: relative; 
+    top: 230px;
+}
+.price_color_1{
+    position: absolute;
+    top: 340px;
+    left: 105px;
+
+}
+
+div.button{
+    position: absolute; 
+    top: 340px; 
+    left: 120px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff7d01;
+    width: 100px;
+    height: 40px;
+    transition-duration: 0.5s;
+    z-index: 10;
+}
+
+.Buy_Now{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 20px;
+    color: #000000;
+    text-decoration: none;
+    position: relative; top: 9px;
+    padding-left: 19px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    top: 300px;
+    left: 90px;
+}
+
+.button:hover{
+    background-color: #143d59;
+}
+
+.Buy_Now:hover{
+    color: #fd0707;
+}
+
+.material_2{
+    background-color: #ffffff;
+    height: 480px;
+    width: 300px;
+    border: 5px solid #FF7D00;
+    position: absolute; 
+    top: 1100px; 
+    left: 410px;
+    z-index: 10;
+}
+
+#material_2_img{
+    position: absolute; 
+    top: 30px; 
+    left: 35px;
+    transition: transform 0.5s;
+}
+
+#material_2_img:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1); 
+  }
+
+#material_2_heading{
+    text-align: center;
+    position: relative; 
+    top: 240px;
+}
+.price_color_2{
+    position: absolute;
+    top: 340px;
+    left: 120px;
+}
+
+.material_3{
+    background-color: #ffffff;
+    height: 480px;
+    width: 300px;
+    border: 5px solid #FF7D00;
+    position: absolute; 
+    top: 1100px; 
+    left: 800px;
+}
+
+#material_3_img{
+    position: absolute; 
+    top: 30px; 
+    left: 35px;
+    transition: transform 0.5s;
+}
+
+#material_3_img:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1); 
+  }
+
+#material_3_heading{
+    text-align: center;
+    position: relative; 
+    top: 240px;
+}
+
+.price_color_3{
+    position: absolute;
+    top: 340px;
+    left: 120px;
+}
+
+.material_4{
+    background-color: #ffffff;
+    height: 480px;
+    width: 300px;
+    border: 5px solid #FF7D00;
+    position: absolute; 
+    top: 1100px; 
+    left: 1190px;
+}
+
+#material_4_img{
+    position: absolute; 
+    top: 30px; 
+    left: 35px;
+    transition: transform 0.5s;
+}
+
+#material_4_img:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1); 
+  }
+
+#material_4_heading{
+    text-align: center;
+    position: relative;
+     top: 240px;
+}
+.price_color_4{
+    position: absolute;
+    top: 340px;
+    left: 120px;
+}
+.Buy_Now1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 20px;
+    color: #000000;
+    text-decoration: none;
+    position: relative; top: 9px;
+    padding-left: 19px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    top: 280px;
+    left: 107px;
+}
+
+.Buy_Now1:hover{
+    color: #fd0707;
+}
+
+
+
+/* design part*/
+.design_1{
+    background-color: #ffffff;
+    height: 450px;
+    width: 350px;
+    border: 5px solid #FF7D00;
+    position: absolute; 
+    top: 1700px; 
+    left: 100px;
+    z-index: 10;
+}
+
+#design_1_img{
+    position: absolute; 
+    top: 30px; 
+    left: 35px;
+    transition: transform 0.5s;
+}
+
+#design_1_img:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1); 
+  }
+
+#design_1_heading{
+    text-align: center;
+    position: relative; 
+    top: 240px;
+}
+
+#para_1{
+    text-align: center; 
+    position: relative; 
+    top: 230px;
+}
+.price_color1{
+    position: absolute;
+    top: 325px;
+    left: 115px;
+
+}
+
+div.button{
+    position: absolute; 
+    top: 340px; 
+    left: 120px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff7d01;
+    width: 100px;
+    height: 40px;
+    transition-duration: 0.5s;
+    z-index: 10;
+}
+
+.Buy_Now_2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 20px;
+    color: #000000;
+    text-decoration: none;
+    position: relative; top: 9px;
+    padding-left: 19px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    top: 300px;
+    left: 107px;
+}
+
+.Buy_Now_3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 20px;
+    color: #000000;
+    text-decoration: none;
+    position: relative; top: 9px;
+    padding-left: 19px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    top: 300px;
+    left: 107px;
+}
+
+.Buy_Now_4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 20px;
+    color: #000000;
+    text-decoration: none;
+    position: relative; top: 9px;
+    padding-left: 19px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    top: 300px;
+    left: 107px;
+}
+
+.button:hover{
+    background-color: #143d59;
+}
+
+.Buy_Now:hover{
+    color: #fd0707;
+}
+
+.price_color1{
+    color: #000000;
+    margin-top: 40px;
+    margin-left: 28px;
+}
+
+.design_2{
+    background-color: #ffffff;
+    height: 450px;
+    width: 350px;
+    border: 5px solid #FF7D00;
+    position: absolute; 
+    top: 1700px; 
+    left: 560px;
+    z-index: 10;
+}
+
+#design_2_img{
+    position: absolute; 
+    top: 30px; 
+    left: 35px;
+    transition: transform 0.5s;
+}
+
+#design_2_img:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1); 
+  }
+
+#design_2_heading{
+    text-align: center;
+    position: relative; 
+    top: 240px;
+}
+.price_color2{
+    position: absolute;
+    top: 350px;
+    left: 140px;
+}
+
+.design_3{
+    background-color: #ffffff;
+    height: 450px;
+    width: 350px;
+    border: 5px solid #FF7D00;
+    position: absolute; 
+    top: 1700px; 
+    left: 1020px;
+}
+#para_2{
+    text-align: center; 
+    position: relative; 
+    top: 50px;
+}
+
+#design_3_img{
+    position: absolute; 
+    top: 30px; 
+    left: 35px;
+    transition: transform 0.5s;
+}
+
+#design_3_img:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1); 
+  }
+
+#design_3_heading{
+    text-align: center;
+    position: relative; 
+    top: 60px;
+}
+
+.price_color3{
+    position: absolute;
+    top: 350px;
+    left: 140px;
+}
+
+.Buy_Now3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 20px;
+    color: #000000;
+    text-decoration: none;
+    position: relative; top: 9px;
+    padding-left: 19px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    top: 120px;
+    left: 127px;
+}
+
+.Buy_Now3:hover{
+    color: #fd0707;
+}
+
+.design_4{
+    background-color: #ffffff;
+    height: 450px;
+    width: 350px;
+    border: 5px solid #FF7D00;
+    position: absolute; 
+    top: 1700px; 
+    left: 1480px;
+}
+
+#design_4_img{
+    position: absolute; 
+    top: 30px; 
+    left: 35px;
+    transition: transform 0.5s;
+}
+
+#design_4_img:hover {
+    transition: transform 0.3s;
+    transform: scale(1.1); 
+  }
+
+#design_4_heading{
+    text-align: center;
+    position: relative;
+     top: 240px;
+}
+.price_color4{
+    position: absolute;
+    top: 350px;
+    left: 140px;
+}
+.Buy_Now4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 20px;
+    color: #000000;
+    text-decoration: none;
+    position: relative; top: 9px;
+    padding-left: 19px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    top: 300px;
+    left: 127px;
+}
+
+.Buy_Now4:hover{
+    color: #fd0707;
+}

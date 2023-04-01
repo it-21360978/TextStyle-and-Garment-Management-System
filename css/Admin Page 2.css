@@ -1,0 +1,79 @@
+div.content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 750px;
+}
+
+div.line{
+    background-color: #143d59;
+    width: 100%;
+    height: 50px;
+}
+
+.main_Heading{
+    position: absolute; top: 200px; left: 632px; 
+    font-size: 30px;
+}
+
+div.technical_Issues{
+    
+    position: absolute; top: 320px;
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+    background-color: #b7be75;
+    margin-left: -80px;
+    overflow: auto;
+}
+
+#heading_1{
+    position: absolute; top: 20px; left: 170px;
+    font-size: 32px;
+}
+
+div.feedbacks_Given{
+    
+    position: absolute; top: 320px; left: 919px;
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+    background-color: #b7be75;
+    margin-left: -80px;
+    overflow: auto;
+    line-height: 20px;
+}
+
+#heading_2{
+    position: absolute; top: 20px; left: 170px;
+    font-size: 32px;
+}
+
+div.row{
+    position: absolute; top: 10px; left: 70px;
+}
+
+div.row2{
+    position: absolute; top: 10px; left: 70px; right: 70px;
+}
+
+div.rting{
+    position: absolute; top: 850px; left: 470px;
+    background-color: #143d59;
+    border-radius: 10px;
+    height: 300px;
+    width: 600px;
+}
+
+.rting_content{
+    color: #ff7d00; 
+    font-size: 50px;
+    position: absolute; top: 80px; left: 350px;
+}
+.rting_heading{
+    font-size: 33px;
+    position: absolute; top: 50px; left: 40px;
+    line-height: 50px;
+}
+
+
+
+

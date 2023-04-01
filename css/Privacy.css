@@ -1,0 +1,45 @@
+.privacy{
+    color: #0b1d39;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#privacyHeading{
+    font-size: 30px;
+    text-align: center;
+}
+
+#lastUpdated{
+    text-align: right;
+    position: absolute; right: 20px;
+    font-size: 13px;
+}
+
+div.otherDetails{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aqua;
+    height: 900px;
+    margin-top: 120px;
+}
+
+#heading{
+    font-size: 25px;
+    margin-left: 250px;
+}
+
+#subHeadings{
+    font-size: 20px;
+    margin-left: 325px;
+}
+
+#para1{
+    text-align: justify;
+    margin-left: 375px;
+    margin-right: 175px;
+    line-height: 25px;
+}
+
+#items{
+    margin-top: 175px;
+    margin-left: 400px;
+    line-height: 30px;
+}

@@ -1,0 +1,62 @@
+header{
+    width: 100%;
+    min-height: 100vh;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+div.content{
+    color: #0b1d39;
+    font-family: 'Trebuchet MS';
+    height: 100px;
+  
+}
+.box{
+    width: 50%;
+    margin: 10px 50px;
+    background:transparent;
+    border-radius: 7px;
+    box-sizing: 2px;
+    border-color: black;
+    box-shadow: 2px 4px 8px rgba(0,0,0,.3);
+    background-color:gray;
+   
+}
+.box .heading{
+    background-color:#143d59;
+    border-radius:0px 0px 0px 0px;
+    padding: 10px;
+    color:black;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+
+.faqs{
+    padding: 10px 20px;
+    background-color: #143d59;
+}
+details{
+    
+    background:white;
+    padding: 10px 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    cursor: pointer;
+}
+details summary{
+    outline: none;
+}
+.text{
+    font-family: 'Trebuchet MS';
+    background-color: #FF7D00;
+}
+.q1{
+    background-color:#143d59 ;
+}
+.q2{
+    background-color:gray;
+}
