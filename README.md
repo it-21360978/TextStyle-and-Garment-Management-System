@@ -23,9 +23,13 @@ Clone the repository:
 
 ```
 
-## Author
+## Authors
 
 - [GIHAN SERASINGHE](https://github.com/it-21360978)
+- [ASHEN PRADEEP]
+- [KAVIJA SAPUKOTANA]
+- [DESHITHA NAYANAJITH]
+- [CHAVINDU]
 
 # License
 ## *This project is licensed under the MIT License. See the LICENSE file for details.
