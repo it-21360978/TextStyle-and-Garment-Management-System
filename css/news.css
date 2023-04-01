@@ -1,0 +1,28 @@
+.btn{
+    border: none;
+    padding: 25px;
+    margin: 23px;
+    text-decoration: none;
+    display: inline-block;
+    font-size:25px;
+    width: 325px;
+    border-radius: 30px;
+    cursor: pointer;
+    outline:none;
+}
+.btn:hover{
+    background-image: none;
+    background-color: #FF7D00;
+    transition-duration: 600ms;
+}
+#img1{
+    width: 400px;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.div1{
+    background-image: linear-gradient(to bottom right, #89f7fe , #66a6ff);
+}
+
+

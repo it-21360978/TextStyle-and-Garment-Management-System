@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.backg{
+	background-color:#EFCFE8;
+}
+.job-offers{
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.job-offers>h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.job-offers>a{
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+  font-weight: 700;
+}
+.job-offers>a:hover{
+color:green;
+}
+.jobs-section{
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10vh;
+}
+.job{
+  width: 380px;
+  border-right: 1px solid gray;
+  padding-right: 10px;
+}
+.job-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.job-location{
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.job-location>p {
+  margin-left: 5px;
+  color: gray;
+  font-weight: 600;
+}
+.job-description>p {
+  color: gray;
+  font-weight: 600;
+}
+.job-title:hover{
+	color:red;
+}

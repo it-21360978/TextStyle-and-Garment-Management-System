@@ -1,0 +1,114 @@
+.form1{
+    margin: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+    border: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Segoe UI,Miriam;
+    color: #05386b;
+    background-color:#5cdb95 ;
+}
+
+.box1{
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+    font-size: 14px;
+    background-color: #edf5e1;
+    padding-left: 7px;
+    border: 0;
+    outline: none;
+    font-family: Segoe UI,Miriam;
+    color: #379683;
+    box-shadow: 3px 3px #379683;
+}
+
+.box1 :hover{
+    border: 2px solid
+}
+
+.box2 :hover{
+    border: 2px solid
+}
+
+.box2{
+    margin-left: 65px;
+    border-radius: 10px;
+    width: 250px;
+    height: 25px;
+    font-size: 14px;
+    background-color: #edf5e1;
+    padding-left: 7px;
+    border: 0;
+    outline: none;
+    font-family: Segoe UI,Miriam;
+    color: #379683;
+    box-shadow: 3px 3px #379683;
+}
+#submitBtn:disabled{
+    position: relative;
+    float: right;
+    bottom: 20px;
+    margin-left: 20px;
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    background-color: #05386b83;
+}
+#submitBtn{
+    font-size: 18px;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    bottom: 20px;
+    width: 125px;
+    height: 40px;
+    border-radius: 30px;
+    color: #edf5e1;
+    background-color: #05386b;
+    outline: none;
+}
+#comment{
+    width: 60%;
+    resize: vertical;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Segoe UI,Miriam;
+    color: #379683;
+    box-shadow: 3px 3px #379683;
+    background-color: #edf5e1;
+}
+
+.intro{
+    position: relative;
+
+}
+.titl{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: (-50%, -50%);
+}
+.heading{
+    font-size: 50px;
+    font-family:Didot;
+    color: #143d59;
+}
+.des{
+    position: absolute;
+    top:45%;
+    left: 27%;
+    font-size: 25px;
+    color: #143d59;
+
+}
+.term
+{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    font-size: 15px;
+    color:red;
+}

@@ -1,0 +1,68 @@
+header{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-bg{
+    height: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #FF7D00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS';
+}
+.text{
+    color:#FF7D00;
+    font-family: 'Trebuchet MS';
+}
+
+.contact-info span{
+    display: block;
+}
+.contact-info div{
+    margin: 5rem 0;
+    padding: 1rem;
+}
+.contact-info{
+    text-align: center;
+}
+.contact-info.text{
+    padding-top: 20rem; 
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+}
+#phone{
+    position: absolute; top: 580px; left: 10%;
+    height: 14%;
+    border-radius: 50%;
+    
+}
+#email{
+    position: absolute; top: 580px; left: 34%;
+    height: 14%;
+    border-radius: 50%;
+}
+#adress{
+    position: absolute; top: 580px; left: 59%;
+    height: 14%; 
+    border-radius: 50%;  
+}
+#open{
+    position: absolute; top: 580px; left: 84%;
+    height: 14%;
+    border-radius: 50%;
+    
+}
+

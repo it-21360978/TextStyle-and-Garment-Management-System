@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Vivacious Designs And Textile </title>
+    <link rel="icon" type="image/jpg" href="../images/comp_logo.jpg">
+    <link rel ="stylesheet" type="text/css" href = "../css/header.css">
+    <link rel ="stylesheet" type="text/css" href= "../css/news.css">
+    <script src="../js/News.js"></script>
+</head>
+<body style="margin: 0px;">
+    <center><a href="../homepage.php"><img src="../images/head_logo2.jpg" id="header"></a></center>
+    <div id="nav">
+		<a href="../homepage.php">Home</a>
+		<a href="../Design.php">Products</a>
+        <a href="../Materials.php">Materials</a>
+		<a href="job.html">Careers</a>
+		<a href="AddDesign.html">Add Design</a>
+        <a href="News.html">News</a>
+        <a href="Contact Us.html">Contact Us</a>
+	</div>
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("nav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                 navbar.classList.add("sticky")
+            }
+            else
+            {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+    
+    <div class="div1">
+        
+            <div>
+                <center>
+                <img src="../images/news.png" id="img1" >
+                <p id="item1" style="font-size: 20px; font-family: Georgia;">
+                 Vivacious-Designs-And-Textiles News page brings you the latest news about our Company
+                </p>
+                </center>
+            </div>
+        
+            <div>
+                <center>
+                <img src="" id="img2" >
+        
+                 <p id="item2" style="font-size: 20px; text-align: center; font-family: Georgia;"></p>
+                </center>
+            </div>
+        
+        
+    </div>
+    <div>
+        <button type="button" id="btn1" onclick="LoadData('btn1')" class="btn">Latest <img src="../images/new.png" style="width: 200px; height: 200px;"></button>
+        <button type="button" id="btn2" onclick="LoadData('btn2')" class="btn">Most viewed <img src="../images/mostpp.png" style="width:250px; height: 200px;"></button>
+        <button type="button" id="btn3" onclick="LoadData('btn3')" class="btn">Trending <img src="../images/trend.png" style="width:200px; height: 200px;"></button>
+        <button type="button" id="disc" onclick="window.location.href ='discount.html'" class="btn">Discounts <img src="../images/discount.png" style="width:250px; height: 200px;"></button>
+    </div>
+  
+    <div id="footer" style="font-family: system-ui;">
+        <ul class="footer-list" style="float:left">
+            <li style="font-size: 20px;">
+                The Company
+            </li>
+            <li>
+                <a href="About Us.html" > About Us</a>
+            </li>
+            <li>
+                <a href="Contact Us.html">Contact Us</a>
+            </li>
+            <li>
+                <a href="Legal.html">Legal</a>
+            </li>
+            <li>
+                <a href="Privacy.html">Privacy and Cookies</a>
+            </li>
+        </ul>
+        <ul class="footer-list" id="help" style="float: left;" >
+            <li style="font-size: 20px;" >
+                Need Help ?
+            </li>
+            <li>
+                <a href="FAQ.html"> FAQ</a>
+            </li>
+            <li>
+                <a href="News.html">News</a>
+            </li>
+            <li>
+                <a href="profile.php">Profile</a>
+            </li>
+        </ul>
+        <ul class="footer-list" id="" style="float:left;">
+        <li style="font-size: 20px;">
+            Branches
+        </li>
+        <li>
+              <a href="https://goo.gl/maps/r2CcUiyGTNyMXmQZ6" target="_blank">New York</a> 
+        </li>
+        <li>
+                <a href="https://goo.gl/maps/CjJc3i758Z2n1q5n8" target="_blank">London</a>
+        </li>
+        <li>
+                <a href="https://goo.gl/maps/bBfAJDcQCc1JR26Y7" target="_blank">Melbourn</a>
+        </li>
+        <li>
+                <a href="https://goo.gl/maps/DqiXAtwWkLjj1G6U8" target="_blank">Tokyo</a>
+        </li>
+        </ul>
+        <br><br><br><br><br><br>
+        <ul class="social">
+            <li class="social">
+                 <a href="https://www.facebook.com/Vivacious-Designs-And-Textile-100517169330619" id="link" target="_blank"> <img src="../images/fb_icon.png" class="fb" >     Facebook   </a> 
+            </li>
+            <li class="social">
+                 <a href="https://www.instagram.com/vivaciousdesignsandtextile/" id="link1" onMouseOver="this.style.color='#C13584'" onmouseout="this.style.color='#FFFFFF'" target="_blank"><img src="../images/ig_Logo.png" class="ig" >      Instagram </a> 
+            </li>
+            <li class="social"> 
+                 <a href="https://linkedin.com/in/vivacious-designs-744853239/" id="link2" onMouseOver="this.style.color='#0072b1'" onmouseout="this.style.color='#FFFFFF'" target="_blank"><img src="../images/in_logo.png" class="in" >   Linkedin     </a> 
+            </li>
+            <li class="social"> 
+                <a href="https://twitter.com/VivaciousDesig" id="link3" onMouseOver="this.style.color='#00acee'" onmouseout="this.style.color='#FFFFFF'" target="_blank"><img src="../images/twitter.png" class="twitter" >    Twitter  </a>
+            </li>
+            <li style="text-align: center;">
+                <p id="copyright" >© 2022 Vivacious Designs And Textile - All rights reserved</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

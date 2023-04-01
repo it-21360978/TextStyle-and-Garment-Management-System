@@ -1,0 +1,198 @@
+div.content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 600px;
+    overflow: hidden;
+}
+
+div.line{
+    background-color: #143d59;
+    width: 100%;
+    height: 50px;
+}
+
+#main_heading{
+    font-size: 30px;
+    color: #000000;
+    position: absolute; top: 200px; left: 632px;
+}
+
+div.careers{
+    position: absolute; top: 350px; left: 40px;
+    background-color: #006effb7;
+    height: 170px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 1.3s;
+}
+
+div.careers:hover{
+    background-color: #006dff;
+    transition: 1s;
+}
+
+#career_img{
+    position: absolute; top: 40px; left: 20px;
+    width: 30%;
+    height: 50%;
+}
+
+.career_heading{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute; top: 25px;  left: 130px;
+}
+
+div.career_no{
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute; top: 95px; left: 170px;
+}
+
+div.users{
+    position: absolute; top: 350px; left: 420px;
+    background-color:   #0f7977d7;
+    height: 170px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 1.3s;
+}
+
+div.users:hover{
+    background-color: #0f7977;
+    transition: 1s;
+}
+
+#user_img{
+    position: absolute; top: 40px; left: 20px;
+    width: 30%;
+    height: 50%;
+}
+
+.user_heading{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute; top: 25px;  left: 130px;
+}
+
+div.user_no{
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute; top: 95px; left: 170px;
+}
+
+div.designs{
+    position: absolute; top: 350px; left: 800px;
+    background-color: #e7473fd5;
+    width: 300px;
+    height: 170px;
+    border-radius: 10px;
+    transition: 1.3s;
+}
+
+div.designs:hover{
+    background-color: #e7473f;
+    transition: 1s;
+}
+
+#designs_img{
+    position: absolute; top: 40px; left: 20px;
+    width: 30%;
+    height: 50%;
+}
+
+.designs_heading{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute; top: 25px;  left: 150px;
+}
+
+div.designs_no{
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute; top: 95px; left: 180px;
+}
+
+div.products{
+    position: absolute; top: 350px; left: 1180px;
+    background-color:  #ffbb00cb;
+    height: 170px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 1.3s;
+}
+
+div.products:hover{
+    background-color: #ffbc00;
+    transition: 1s;
+}
+
+#products_img{
+    position: absolute; top: 40px; left: 20px;
+    width: 30%;
+    height: 50%;
+}
+
+.products_heading{
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute; top: 25px;  left: 150px;
+}
+
+div.products_no{
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute; top: 95px; left: 180px;
+}
+
+div.payment{
+    position: absolute; top: 600px; left: 100px;
+    background-color:  #f95700;
+    height: 300px;
+    width: 1310px;
+    border-radius: 10px;
+}
+
+#payment_img{
+    position: absolute; top: 70px; left: 70px;
+    width: 13%;
+    height: 50%;
+}
+
+.payment_heading{
+    position: absolute; top: -30px; left: 550px;
+    font-size: 60px;
+}
+
+#price{
+    position: absolute; top: 156px; left: 900px;
+    font-size: 45px; 
+}
+
+div.pymtTot_no{
+    position: absolute; top: 200px; left: 1000px;
+    font-size: 45px;
+}
+
+#adminpg_2{
+    position: absolute; top: 1000px; left: 1300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ff7d01;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+    transition-duration: 1.3s;
+}
+
+#adminpg_2:hover{
+    background-color: #143d59;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+
+#note{
+    position: absolute; top: 1020px; left: 20px;
+}

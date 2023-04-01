@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Vivacious Designs And Textile </title>
+    <link rel="icon" type="image/jpg" href="../images/comp_logo.jpg">
+    <link rel ="stylesheet" type="text/css" href = "../css/header.css">
+    <link rel ="stylesheet" type="text/css" href= "../css/addDesign.css">
+    <script src="../js/addDesign.js"></script>
+</head>
+
+<body style="margin: 0px;">
+    <center><a href="../homepage.php"><img src="../images/head_logo2.jpg" id="header"></a></center>
+    <div id="nav">
+		<a href="../homepage.php">Home</a>
+            <a href="../Design.php">Products</a>
+            <a href="../Materials.php">Materials</a>
+            <a href="job.html">Careers</a>
+            <a href="AddDesign.html">Add Design</a>
+            <a href="News.html">News</a>
+            <a href="Contact Us.html">Contact Us</a>
+	</div>
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("nav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                 navbar.classList.add("sticky");
+            }
+            else
+            {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+    <div style="background-color: #5cdb95;">
+    <div class="intro">
+        <img src="../images/addDesign1.jpg" style="width:100%; height: 325px;">
+        <div class="titl">
+            <h1 class="heading">Add Design</h1>
+        </div>
+        <div class="des">
+            <p> Add submit your design to us and earn change to get money*.</p>
+        </div>
+        <div class="term">
+            <p>*Term and conditions applied</p>
+        </div>
+    </div>
+    <div>
+        <form method="post" action="../submitAddDesign.php" onsubmit="return validateAddDesign()" name="addform">
+            <div class="form1">
+                <label for="dn">Design Name : </label>
+                <input type="text" name="desName" placeholder = "Design name" class="box1"></br></br>
+                <p id="dname"></p>
+                <label for="desType">Type : </label>
+                <input type = "text" name = "desType" placeholder = "Type of the design" class="box2" ></br></br>
+                <p id="dtype"></p>
+                Color : <input type = "color" name = "desColor" placeholder = "Design color"></br></br>
+                <label for="desPrice">Your Price : </label>
+                <input type = "number" name = "desPrice" placeholder = "RS: " class="box1" ></br></br>
+                <p id="dprice"></p>
+                <input type="radio" name="gender" value = "Male" class="rbtn"> Male
+                <input type = "radio" name = "gender" value = "female" > Female
+                <input type = "radio" name= "gender" value = "unisex" > Unisex
+                <input type = "radio" name = "gender" value = "kid"> Kids</br></br>
+                Comment : </br>
+                <textarea id="comment" name="desComment" rows="5" cols="100" placeholder="Any Comment about the design"></textarea></br></br>
+                Upload a photo of your design <input type="file" name="desImg" accept="image/*"></br></br>
+                <input type="checkbox" id="check" onclick="enableBtn()">I Accept terms and conditions
+                <input type = "submit" value="Submit" name = "btnSubmit"id="submitBtn" disabled>
+            </form>
+            </div>
+        </div>       
+    </div>
+ <div id="footer" style="font-family: system-ui;">
+        <ul class="footer-list" style="float:left">
+            <li style="font-size: 20px;">
+                The Company
+            </li>
+            <li>
+                <a href="About Us.html" > About Us</a>
+            </li>
+            <li>
+                <a href="Contact Us.html">Contact Us</a>
+            </li>
+            <li>
+                <a href="Legal.html">Legal</a>
+            </li>
+            <li>
+                <a href="Privacy.html">Privacy and Cookies</a>
+            </li>
+        </ul>
+        <ul class="footer-list" id="help" style="float: left;" >
+            <li style="font-size: 20px;" >
+                Need Help ?
+            </li>
+            <li>
+                <a href="FAQ.html"> FAQ</a>
+            </li>
+            <li>
+                <a href="News.html">News</a>
+            </li>
+            <li>
+                <a href="profile.php">Profile</a>
+            </li>
+        </ul>
+        <ul class="footer-list" id="" style="float:left;">
+        <li style="font-size: 20px;">
+            Branches
+        </li>
+        <li>
+              <a href="https://goo.gl/maps/r2CcUiyGTNyMXmQZ6" target="_blank">New York</a> 
+        </li>
+        <li>
+                <a href="https://goo.gl/maps/CjJc3i758Z2n1q5n8" target="_blank">London</a>
+        </li>
+        <li>
+                <a href="https://goo.gl/maps/bBfAJDcQCc1JR26Y7" target="_blank">Melbourn</a>
+        </li>
+        <li>
+                <a href="https://goo.gl/maps/DqiXAtwWkLjj1G6U8" target="_blank">Tokyo</a>
+        </li>
+        </ul>
+        <br><br><br><br><br><br>
+        <ul class="social">
+            <li class="social">
+                 <a href="https://www.facebook.com/Vivacious-Designs-And-Textile-100517169330619" id="link" target="_blank"> <img src="../images/fb_icon.png" class="fb" >     Facebook   </a> 
+            </li>
+            <li class="social">
+                 <a href="https://www.instagram.com/vivaciousdesignsandtextile/" id="link1" onMouseOver="this.style.color='#C13584'" onmouseout="this.style.color='#FFFFFF'" target="_blank"><img src="../images/ig_Logo.png" class="ig" >      Instagram </a> 
+            </li>
+            <li class="social"> 
+                 <a href="https://linkedin.com/in/vivacious-designs-744853239/" id="link2" onMouseOver="this.style.color='#0072b1'" onmouseout="this.style.color='#FFFFFF'" target="_blank"><img src="../images/in_logo.png" class="in" >   Linkedin     </a> 
+            </li>
+            <li class="social"> 
+                <a href="https://twitter.com/VivaciousDesig" id="link3" onMouseOver="this.style.color='#00acee'" onmouseout="this.style.color='#FFFFFF'" target="_blank"><img src="../images/twitter.png" class="twitter" >    Twitter  </a>
+            </li>
+            <li style="text-align: center;">
+                <p id="copyright" >© 2022 Vivacious Designs And Textile - All rights reserved</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

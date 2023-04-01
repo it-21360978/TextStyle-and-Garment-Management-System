@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<body>
+    <form>
+        <fieldset>
+            <legend>form</legend>
+            <input type="text" name="n1">
+            <label for = "n1">How many rows for your multiplication table </label><br>
+            <input type="text" name="n2">
+            <label for = "n2">How many columns for your multiplication table </label><br>
+            <input type="button" onclick="createTable('n1','n2')">
+        </fieldset>
+    </form>
+    <script>
+        function createTable(R,C){
+            document.write("<table>");
+                
+            for(i=1; i<=R; i++){
+                document.write("<tr>");
+                for(j=1; j<=C; j++){
+                    document.write("<td>");
+                    document.write(j*i);
+                    document.write("</td>");
+                }
+                document.write("</tr>");
+            }
+            document.write("</table>");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+#header{
+    width:640px ;
+    height:124px;
+    
+}
+
+#nav {
+    list-style-type: none;
+    font-family: "Trebuchet MS";
+    z-index: 500;
+	  margin: 0px;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color:#143d59;
+    }
+  
+  #nav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #nav a:hover {
+    background-color: #0b1d39;
+    border-bottom: 3px solid #FF7D00;
+  }
+  
+  #nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .content {
+    padding: 160px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+div#footer{
+    background-color:#143d59 ;
+    color:#FFFFFF;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.in{
+      
+    width:40px;
+    height:25px;
+}
+
+.fb{
+       
+    width:25px;
+    height:25px;
+}
+
+.ig{
+       
+    width:50px;
+    height:25px;
+}
+
+.twitter{
+      
+    width:25px;
+    height:25px;
+}
+
+
+
+ul.social{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: transparent;
+    overflow: hidden;
+    
+     
+}
+li.social{
+    float: right;
+}
+
+.social>li>a{
+    color:white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.social>li>a:hover{
+    color:#4267B2;
+}
+
+.footer-list{
+    list-style-type: none;
+    line-height: 29px;
+}
+
+.footer-list>li>a{
+    color: rgba(255, 255, 255, 0.688);;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.footer-list>li>a:hover{
+    color:#ffffff;
+}
+
+#help{
+  float:left;
+}
+
+
